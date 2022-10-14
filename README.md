@@ -32,3 +32,6 @@ The architecture should be able to support the following analytics queries:
 ### Extra
 
 Implement a system to analyze the sentiment of each message sent by the user and store that information into the database.
+
+<img width="638" alt="1  Introduccion" src="https://user-images.githubusercontent.com/92360704/195833896-8db13c09-97b2-4b0c-8ffe-69a79ee01cc7.PNG">
+
