@@ -50,3 +50,10 @@ For the security configuration we will use authentication through username and p
 
 ![image](https://user-images.githubusercontent.com/92360704/202859348-f7d4faf4-5e23-4378-a5d2-87348f54d6a3.png)
 
+After the creation of the cluster I will connect to it using Mongodb's native drivers with Python 3.6:
+
+![image](https://user-images.githubusercontent.com/92360704/202859630-9717df5e-8b8e-4e95-821b-3324581aacfa.png)
+
+![image](https://user-images.githubusercontent.com/92360704/202859737-b3db9ecc-cde6-4ce1-9af7-4973a0ab591c.png)
+
+
