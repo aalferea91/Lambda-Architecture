@@ -44,4 +44,10 @@ Create a new project in Mongodb and create a database. In this case I used a sha
 
 ![image](https://user-images.githubusercontent.com/92360704/202858849-47e5f3db-f7d3-484c-a68e-4726c3041687.png)
 
+For the security configuration we will use authentication through username and password, and we will add the ip 0.0.0.0/0 to the IP Access List (this is not a good practice in a proffesional environment but for the purpose of this project it's ok).
+
+![image](https://user-images.githubusercontent.com/92360704/202859348-f7d4faf4-5e23-4378-a5d2-87348f54d6a3.png)
+
+
+![image](https://user-images.githubusercontent.com/92360704/202859233-58ef37a5-44a1-4e4e-a658-84fd728ee995.png)
 
