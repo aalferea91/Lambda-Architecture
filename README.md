@@ -35,3 +35,13 @@ Implement a system to analyze the sentiment of each message sent by the user and
 
 <img width="638" alt="1  Introduccion" src="https://user-images.githubusercontent.com/92360704/195833896-8db13c09-97b2-4b0c-8ffe-69a79ee01cc7.PNG">
 
+
+### Resolution
+
+1. Database + API
+
+Create a new project in Mongodb and create a database. In this case I used a shared cluster with the recommended configuration with no costs:
+
+![image](https://user-images.githubusercontent.com/92360704/202858849-47e5f3db-f7d3-484c-a68e-4726c3041687.png)
+
+
