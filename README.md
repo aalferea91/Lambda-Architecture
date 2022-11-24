@@ -57,6 +57,7 @@ After the creation of the cluster I will connect to it using Mongodb's native dr
 ![image](https://user-images.githubusercontent.com/92360704/202859737-b3db9ecc-cde6-4ce1-9af7-4973a0ab591c.png)
 
 Create a database for our project and a collection to store the comments of the users. Then create a flask API with the following endpoints:
--POST /comments
--GET /comments
+- POST /comments
+- GET /comments
+- POST /comments/<comment_id>/like
 
