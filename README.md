@@ -63,6 +63,6 @@ Create a database for our project and a collection to store the comments of the 
 
 2. Kafka Stream
 
-Run a Kafka server that connects to our database and everytime a like gets posted, it goes to Kafka topic. And then the consumer for this topic will be a python script running in EC2 that will update the likes collection in our database.
+Run a Kafka server in EC2 that connects to our database and everytime a like gets posted, it goes to Kafka topic. And then the consumer for this topic will be a python script running in EC2 that will update the likes collection in our database.
 
 The reason why we dont include this last call to our database in our API is because its not a good practice to program multiple database actions in the same API (in case that there are a lot of API requests, it might happen that that huge number of requests to the database end up overloading the server).
