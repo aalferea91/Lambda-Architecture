@@ -66,3 +66,23 @@ Create a database for our project and a collection to store the comments of the 
 Run a Kafka server in EC2 that connects to our database and everytime a like gets posted, it goes to Kafka topic. And then the consumer for this topic will be a python script running in EC2 that will update the likes collection in our database.
 
 The reason why we dont include this last call to our database in our API is because its not a good practice to program multiple database actions in the same API (in case that there are a lot of API requests, it might happen that that huge number of requests to the database end up overloading the server).
+
+To create a server with Kafka we will select the following options in EC2:
+- Ubuntu Server
+
+
+![image](https://user-images.githubusercontent.com/92360704/203983375-5f5fd88d-8a30-4a1b-bbf0-6f3766137dfc.png)
+
+![image](https://user-images.githubusercontent.com/92360704/203983451-bf1a5aff-6dc7-4f9b-82c6-9d4114ef1c63.png)
+
+![image](https://user-images.githubusercontent.com/92360704/203983624-c5e68d28-5fe5-40b3-8265-bb1405580495.png)
+
+![image](https://user-images.githubusercontent.com/92360704/203983687-03396eb3-dc8a-436f-b613-bf5f54033896.png)
+
+![image](https://user-images.githubusercontent.com/92360704/203983818-fa4d05e7-f8ff-4188-884b-e3c443f02022.png)
+
+![image](https://user-images.githubusercontent.com/92360704/203983974-c8ba6ac8-c255-48fd-a947-c78674d76f0b.png)
+
+Once the EC2 machine is running, we connect to it through ssh and we execute the following code: 
+
+
