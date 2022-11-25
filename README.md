@@ -83,6 +83,6 @@ To create a server with Kafka we will select the following options in EC2:
 
 ![image](https://user-images.githubusercontent.com/92360704/203983974-c8ba6ac8-c255-48fd-a947-c78674d76f0b.png)
 
-Once the EC2 machine is running, we connect to it through ssh and we execute the following code: 
+Once the EC2 machine is running, we connect to it through ssh and we execute the following code: (poner link de los comandos)
 
 
