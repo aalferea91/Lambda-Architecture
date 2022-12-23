@@ -95,3 +95,11 @@ Only thing left in this part of the architecture is the consumer of Kafka, which
 #### Analytical Layer
 
 To be able to capture the number views of each comment we are going to write to a Kafka topic and then with Spark we will update the collection in our mongodb for the views, and also we will store that information in a S4 bucket, in order to do analytical queries to it. We do it this way in order to separate the transactional database from our analytical database so the queries to our database will never affect the transactional layer.
+
+1. Views Kafka Producer
+
+In this part of the architecture we will simulate that our app has traffic from diverse aplications. We will use the notebook () to generate a volume of randomized data to our stream in the topic 'views'.
+
+2. Views Kafka Consumer: Spark Streaming
+
+ 
