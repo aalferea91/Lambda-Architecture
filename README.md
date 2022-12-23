@@ -37,7 +37,7 @@ Implement a system to analyze the sentiment of each message sent by the user and
 
 
 ### Resolution
-
+#### Transactional Layer
 1. Database + API
 
 Create a new project in Mongodb and create a database. In this case I used a shared cluster with the recommended configuration with no costs:
@@ -92,4 +92,4 @@ Now that we have the Kafka installed in our EC2 machine and running, we are goin
 
 Only thing left in this part of the architecture is the consumer of Kafka, which in our case it's going to be a microservice in docker. Since we are also running the API in another container, we can combine both in the docker compose file (https://github.com/aalferea91/Lambda-Architecture/tree/main/dockerized)
 
-
+#### Analytical Layer
