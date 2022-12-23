@@ -59,7 +59,7 @@ After the creation of the cluster I will connect to it using Mongodb's native dr
 Create a database for our project and a collection to store the comments of the users. Then create a flask API with the following endpoints:
 - POST /comments
 - GET /comments
-- POST /comments/<comment_id>/like
+- POST /comments/<comment_id>/like\
 https://github.com/aalferea91/Lambda-Architecture/blob/main/Database%2BAPI.ipynb
 
 2. Kafka Stream
