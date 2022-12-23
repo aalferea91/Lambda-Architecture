@@ -98,8 +98,10 @@ To be able to capture the number views of each comment we are going to write to 
 
 1. Views Kafka Producer
 
-In this part of the architecture we will simulate that our app has traffic from diverse aplications. We will use the notebook () to generate a volume of randomized data to our stream in the topic 'views'.
+In this part of the architecture we will simulate that our app has traffic from diverse aplications. We will use the notebook (https://github.com/aalferea91/Lambda-Architecture/blob/main/Views%20Generator.ipynb) to generate a volume of randomized data to our stream in the topic 'views'.
 
 2. Views Kafka Consumer: Spark Streaming
+
+
 
  
