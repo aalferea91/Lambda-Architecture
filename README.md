@@ -93,3 +93,5 @@ Now that we have the Kafka installed in our EC2 machine and running, we are goin
 Only thing left in this part of the architecture is the consumer of Kafka, which in our case it's going to be a microservice in docker. Since we are also running the API in another container, we can combine both in the docker compose file (https://github.com/aalferea91/Lambda-Architecture/tree/main/dockerized)
 
 #### Analytical Layer
+
+To be able to capture the number views of each comment we are going to use Kafka 
