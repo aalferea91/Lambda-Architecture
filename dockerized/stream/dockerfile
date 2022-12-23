@@ -1,0 +1,11 @@
+FROM python:3.8-alpine
+
+RUN pip install pymongo kafka-python dnspython
+
+COPY stream.py /opt/
+
+WORKDIR /opt/
+
+EXPOSE 5000
+
+CMD ["python", "stream.py"]
