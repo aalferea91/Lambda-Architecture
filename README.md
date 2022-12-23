@@ -88,6 +88,8 @@ Once the EC2 machine is running, we connect to it through ssh and we execute the
 
 Now that we have the Kafka installed in our EC2 machine and running, we are going to connect it to our mongodb database through Kafka connector plugin: (https://github.com/aalferea91/Lambda-Architecture/blob/main/Kafka%20Stream.ipynb)
 
+3. Dockerized Kafka Consumer
+
 Only thing left in this part of the architecture is the consumer of Kafka, which in our case it's going to be a microservice in docker. Since we are also running the API in another container, we can combine both in the docker compose file (https://github.com/aalferea91/Lambda-Architecture/tree/main/dockerized)
 
 
