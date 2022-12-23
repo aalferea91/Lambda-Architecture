@@ -60,7 +60,7 @@ Create a database for our project and a collection to store the comments of the 
 - POST /comments
 - GET /comments
 - POST /comments/<comment_id>/like
-
+https://github.com/aalferea91/Lambda-Architecture/blob/main/Database%2BAPI.ipynb
 
 2. Kafka Stream
 
@@ -84,10 +84,10 @@ To create a server with Kafka we will select the following options in EC2:
 
 ![image](https://user-images.githubusercontent.com/92360704/203983974-c8ba6ac8-c255-48fd-a947-c78674d76f0b.png)
 
-Once the EC2 machine is running, we connect to it through ssh and we execute the following code: (poner link de los comandos: Kafka EC2)
+Once the EC2 machine is running, we connect to it through ssh and we execute the following code: (https://github.com/aalferea91/Lambda-Architecture/blob/main/Kafka%20EC2.ipynb)
 
-Now that we have the Kafka installed in our EC2 machine and running, we are going to connect it to our mongodb database through Kafka connector plugin: (poner link de Kafka Stream)
+Now that we have the Kafka installed in our EC2 machine and running, we are going to connect it to our mongodb database through Kafka connector plugin: (https://github.com/aalferea91/Lambda-Architecture/blob/main/Kafka%20Stream.ipynb)
 
-Only thing left in this part of the architecture is the consumer of Kafka, which in our case it's going to be a microservice in docker. Since we are also running the API in another container, we can combine both in the docker compose file (link of docker compose) (link of stream dockerfile and stream.py)
+Only thing left in this part of the architecture is the consumer of Kafka, which in our case it's going to be a microservice in docker. Since we are also running the API in another container, we can combine both in the docker compose file (https://github.com/aalferea91/Lambda-Architecture/tree/main/dockerized)
 
 
