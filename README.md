@@ -61,6 +61,7 @@ Create a database for our project and a collection to store the comments of the 
 - GET /comments
 - POST /comments/<comment_id>/like
 
+
 2. Kafka Stream
 
 Run a Kafka server in EC2 that connects to our database and everytime a like gets posted, it goes to Kafka topic. And then the consumer for this topic will be a python script running in EC2 that will update the likes collection in our database.
