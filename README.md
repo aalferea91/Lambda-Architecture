@@ -112,8 +112,9 @@ Once the cluster is created and running we will use the jupyternotebook option i
 
 ![notebook](https://user-images.githubusercontent.com/92360704/209434488-2c101e36-c029-419c-b576-185850a2ba0e.PNG)
 
-Once the notebook is created, we can open it in a  pyspark instance and execute the code in the following jupyternotebook that will ...: (link)
-The previous code will process the data from the Kafka stream in the topic views, give it a structure and for for each row update in mongodb in the comments collection the number of views of the comment.
-
+Once the notebook is created, we can open it in a  pyspark instance and execute the code in the following jupyternotebook: (link)
+The previous code will: 
+1. Process the data from the Kafka stream in the topic views, give it a structure and for for each row update in mongodb in the comments collection the number of views of the comment. 
+2. Store the data from the stream in a S3 bucket for later analysis.
 
  
