@@ -120,4 +120,5 @@ The previous code will:
 1. Process the data from the Kafka stream in the topic views, give it a structure and for for each row update in mongodb in the comments collection the number of views of the comment. 
 2. Store the data from the stream in a S3 bucket for later analysis.
 
+The analytical layer is now defined and stored in S3, and with the url of our bucket and with another Spark session we execute queries to it
  
