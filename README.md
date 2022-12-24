@@ -102,6 +102,12 @@ In this part of the architecture we will simulate that our app has traffic from 
 
 2. Views Kafka Consumer: Spark Streaming
 
+To consume the topic of the views from Kafka we will use Spark. So first of all we will create in AWS a EMR cluster for this purpose (we will use the default options except for the following configurations:
+
+![step1](https://user-images.githubusercontent.com/92360704/209434371-0d0e3ea4-9c51-4203-9c73-450fe0df4409.PNG)
+
+![step2](https://user-images.githubusercontent.com/92360704/209434375-21fcaaf8-c9d2-4b97-b065-ba267a133476.PNG)
+
 
 
  
