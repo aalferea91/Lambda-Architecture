@@ -20,7 +20,7 @@ The basic funcionalities of our application will be:
 - The app consists in a feed of text messages that will be shown by time starting from the most recent. The information stored will be: body of the message, date of the message, user, and total number of likes of the message.
 
 - The users will be able to interact with the messages by posting a like or also by deleting the like for each message.
-- 
+
 ### Analytical layer
 
 The architecture should be able to support the following analytics queries:
