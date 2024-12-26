@@ -1,3 +1,10 @@
+---
+title: "lambda-architecture"
+type: "project"
+tags: python, pandas, MBIT, mongodb, flask, kafka, S3, AWS, spark, EMR
+
+---
+
 # Lambda-Architecture
 Project in which I will develop the backend for a lambda architecture simulating a Social Network with specific requirements. 
 
