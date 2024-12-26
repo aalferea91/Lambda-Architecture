@@ -1,7 +1,7 @@
 ---
 title: "lambda-architecture"
 type: "project"
-tags: python, pandas, MBIT, mongodb, flask, kafka, S3, AWS, spark, EMR
+tags: python, pandas, MBIT, mongodb, flask, kafka, S3, AWS, spark, EMR, docker
 
 ---
 
